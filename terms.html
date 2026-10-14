@@ -1,102 +1,75 @@
-<!DOCTYPE html>
-<html lang="zh-CN">
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>用户协议</title>
-<style>
-  * { margin: 0; padding: 0; box-sizing: border-box; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Microsoft YaHei", "Segoe UI", sans-serif;
-    background: #f5f6f8;
-    color: #1d1d1f;
-    padding: 40px 20px;
-    line-height: 1.7;
-  }
-  .container {
-    background: #fff;
-    border-radius: 18px;
-    box-shadow: 0 4px 24px rgba(0,0,0,0.08);
-    padding: 48px;
-    max-width: 720px;
-    margin: 0 auto;
-  }
-  .header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 24px; flex-wrap: wrap; gap: 12px; }
-  h1 { font-size: 28px; font-weight: 700; margin: 0; }
-  h2 { font-size: 19px; font-weight: 600; margin: 32px 0 12px; padding-bottom: 6px; border-bottom: 1px solid #eee; }
-  p { margin-bottom: 14px; font-size: 16px; color: #333; }
-  ul { margin: 8px 0 16px 22px; }
-  li { margin-bottom: 8px; font-size: 16px; color: #333; }
-  .meta { color: #86868b; font-size: 13px; margin-bottom: 20px; }
-  .lang-switch {
-    font-size: 14px;
-    color: #1d1d1f;
-    text-decoration: none;
-    padding: 8px 14px;
-    border-radius: 8px;
-    background: #f5f5f7;
-    transition: background .15s;
-  }
-  .lang-switch:hover { background: #e8e8ed; }
-  .footer { text-align: center; margin-top: 32px; color: #a1a1a6; font-size: 12px; }
-  .back { display: inline-block; margin-bottom: 20px; color: #0071e3; text-decoration: none; font-size: 14px; }
-  .back:hover { text-decoration: underline; }
-</style>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+  <title></title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2685.6">
+  <style type="text/css">
+    body {background-color: #f2f4f6}
+    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'PingFang SC'; color: #0a58dc; -webkit-text-stroke: #0a58dc}
+    p.p3 {margin: 0.0px 0.0px 0.0px 0.0px; font: 14.0px 'Helvetica Neue'; color: #161618; -webkit-text-stroke: #161618; background-color: #f2f2f5}
+    p.p4 {margin: 0.0px 0.0px 20.0px 0.0px; font: 13.0px 'Helvetica Neue'; color: #737378; -webkit-text-stroke: #737378}
+    p.p6 {margin: 0.0px 0.0px 14.0px 0.0px; font: 16.0px 'PingFang SC'; color: #262626; -webkit-text-stroke: #262626}
+    p.p8 {margin: 0.0px 0.0px 14.0px 0.0px; font: 16.0px 'Helvetica Neue'; color: #0000e9; -webkit-text-stroke: #0000e9}
+    p.p9 {margin: 0.0px 0.0px 14.0px 0.0px; text-align: center; font: 12.0px 'Helvetica Neue'; color: #909095; -webkit-text-stroke: #909095}
+    li.li7 {margin: 0.0px 0.0px 8.0px 0.0px; font: 16.0px 'PingFang SC'; color: #262626; -webkit-text-stroke: #262626}
+    span.s1 {font: 14.0px 'Helvetica Neue'; font-kerning: none; background-color: #ffffff}
+    span.s2 {font: 14.0px 'PingFang SC'; font-kerning: none}
+    span.s3 {font-kerning: none; background-color: #ffffff}
+    span.s4 {font-kerning: none}
+    span.s5 {font: 13.0px 'PingFang SC'; font-kerning: none; background-color: #ffffff}
+    span.s6 {font: 19.0px '.SF NS'; font-kerning: none; background-color: #ffffff}
+    span.s7 {font: 19.0px '.AppleSimplifiedChineseFont'; font-kerning: none; background-color: #ffffff}
+    span.s8 {font: 16.0px 'Helvetica Neue'; font-kerning: none; background-color: #ffffff}
+    span.s9 {font: 16.0px 'Helvetica Neue'; background-color: #ffffff; -webkit-text-stroke: 0px #000000}
+    span.s10 {font: 16.0px '.AppleSimplifiedChineseFont'; font-kerning: none; background-color: #ffffff}
+    span.s11 {text-decoration: underline ; font-kerning: none; background-color: #ffffff}
+    span.s12 {text-decoration: underline ; font-kerning: none}
+    ul.ul1 {list-style-type: disc}
+  </style>
 </head>
 <body>
-  <div class="container">
-    <a class="back" href="index.html">← 返回首页</a>
-    <div class="header">
-      <h1>用户协议</h1>
-      <a class="lang-switch" href="terms-en.html">English →</a>
-    </div>
-    <p class="meta">最后更新：2026-09-29</p>
-
-    <h2>1. 协议接受</h2>
-    <p>使用本应用即表示你同意本协议全部条款。不同意请停止使用并卸载。</p>
-
-    <h2>2. 应用说明</h2>
-    <p>本应用是一款本地 AI 对话归档工具，用于导入、浏览、搜索和导出你与其他 AI 平台（如 ChatGPT、豆包、通义千问等）产生的对话记录。本应用由独立开发者（"我们"）开发，与上述任何平台均无关联、未获其授权或背书。</p>
-
-    <h2>3. 你的数据与责任</h2>
-    <ul>
-      <li><strong>数据来源</strong>：你导入的对话内容由你从第三方平台自行导出。你有责任确认你对这些内容拥有合法权利，且导出行为不违反相关平台的用户协议</li>
-      <li><strong>数据存储</strong>：所有数据仅存于你的设备。设备损坏、系统重装或误删除可能导致数据丢失，<strong>请定期使用备份功能</strong></li>
-      <li>我们不对任何数据丢失承担责任</li>
-    </ul>
-
-    <h2>4. 订阅与购买</h2>
-    <ul>
-      <li>免费版可保存最多 30 条对话，浏览、搜索、阅读功能不受限</li>
-      <li>Pro 提供月度订阅、年度订阅与终身买断三档，解锁无限保存、扩展捕获、导出与备份功能</li>
-      <li>订阅通过 Apple 账户扣款，到期前 24 小时内自动续期，可随时在系统设置中取消</li>
-      <li><strong>数据不锁定</strong>：订阅到期后，已有对话仍可永久浏览、搜索和导出，仅限制新增导入</li>
-      <li>退款按 Apple 政策处理，与我们无关</li>
-    </ul>
-
-    <h2>5. 禁止行为</h2>
-    <ul>
-      <li>逆向工程、破解或绕过本应用的功能限制</li>
-      <li>利用本应用存储、传播违法违规内容</li>
-      <li>将本应用用于任何损害他人合法权益的用途</li>
-    </ul>
-
-    <h2>6. 知识产权</h2>
-    <ul>
-      <li>本应用软件及界面的知识产权归开发者所有</li>
-      <li>你导入的数据内容归你或其原始权利人所有，我们不主张任何权利</li>
-    </ul>
-
-    <h2>7. 免责声明</h2>
-    <p>本应用按"现状"提供，不提供任何明示或默示的担保。在法律允许的最大范围内，我们不对因使用或无法使用本应用导致的任何间接、附带或后果性损失负责。</p>
-
-    <h2>8. 协议变更</h2>
-    <p>我们可能不时更新本协议，重大变更将在应用内公示。继续使用即视为接受变更。</p>
-
-    <h2>9. 联系方式</h2>
-    <p><a href="mailto:sunjun20141@qq.com">sunjun20141@qq.com</a></p>
-
-    <p class="footer">© 2026 Jun Sun</p>
-  </div>
+<p class="p1"><span class="s1"><a href="file:///Users/sun/Documents/AICode/Archivic/docs/index.html">← <span class="s2">返回首页</span></a></span></p>
+<h1 style="margin: 0.0px 0.0px 0.0px 0.0px; font: 28.0px '.PingFang UI SC'; color: #161618; -webkit-text-stroke: #161618"><span class="s3"><b>用户协议</b><b></b></span></h1>
+<p class="p3"><span class="s4"><a href="file:///Users/sun/Documents/AICode/Archivic/docs/terms-en.html">English →</a></span></p>
+<p class="p4"><span class="s5">最后更新：</span><span class="s3">2026-09-29</span></p>
+<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 19.0px 'PingFang SC Semibold'; color: #161618; -webkit-text-stroke: #161618"><span class="s6"><b>1. </b></span><span class="s7"><b>协议接受</b><b></b></span></h2>
+<p class="p6"><span class="s3">使用本应用即表示你同意本协议全部条款。不同意请停止使用并卸载。</span></p>
+<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 19.0px 'PingFang SC Semibold'; color: #161618; -webkit-text-stroke: #161618"><span class="s6"><b>2. </b></span><span class="s7"><b>应用说明</b><b></b></span></h2>
+<p class="p6"><span class="s3">本应用是一款本地</span><span class="s8"> AI </span><span class="s3">对话归档工具，用于导入、浏览、搜索和导出你与其他</span><span class="s8"> AI </span><span class="s3">平台（如 豆包、通义千问等）产生的对话记录。本应用由独立开发者（</span><span class="s8">"</span><span class="s3">我们</span><span class="s8">"</span><span class="s3">）开发，与上述任何平台均无关联、未获其授权或背书。</span></p>
+<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 19.0px 'PingFang SC Semibold'; color: #161618; -webkit-text-stroke: #161618"><span class="s6"><b>3. </b></span><span class="s7"><b>你的数据与责任</b><b></b></span></h2>
+<ul class="ul1">
+  <li class="li7"><span class="s9"><b></b></span><span class="s10"><b>数据来源</b></span><span class="s3">：你导入的对话内容由你从第三方平台自行导出。你有责任确认你对这些内容拥有合法权利，且导出行为不违反相关平台的用户协议</span></li>
+  <li class="li7"><span class="s9"><b></b></span><span class="s10"><b>数据存储</b></span><span class="s3">：所有数据仅存于你的设备。设备损坏、系统重装或误删除可能导致数据丢失，</span><span class="s10"><b>请定期使用备份功能</b><b></b></span></li>
+  <li class="li7"><span class="s9"></span><span class="s3">我们不对任何数据丢失承担责任</span></li>
+</ul>
+<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 19.0px 'PingFang SC Semibold'; color: #161618; -webkit-text-stroke: #161618"><span class="s6"><b>4. </b></span><span class="s7"><b>订阅与购买</b><b></b></span></h2>
+<ul class="ul1">
+  <li class="li7"><span class="s9"></span><span class="s3">免费版可保存最多</span><span class="s8"> 30 </span><span class="s3">条对话，浏览、搜索、阅读功能不受限</span></li>
+  <li class="li7"><span class="s9"></span><span class="s8">Pro </span><span class="s3">提供月度订阅、年度订阅与终身买断三档，解锁无限保存、扩展捕获、导出与备份功能</span></li>
+  <li class="li7"><span class="s9"></span><span class="s3">订阅通过</span><span class="s8"> Apple </span><span class="s3">账户扣款，到期前</span><span class="s8"> 24 </span><span class="s3">小时内自动续期，可随时在系统设置中取消</span></li>
+  <li class="li7"><span class="s9"><b></b></span><span class="s10"><b>数据不锁定</b></span><span class="s3">：订阅到期后，已有对话仍可永久浏览、搜索和导出，仅限制新增导入</span></li>
+  <li class="li7"><span class="s9"></span><span class="s3">退款按</span><span class="s8"> Apple </span><span class="s3">政策处理，与我们无关</span></li>
+</ul>
+<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 19.0px 'PingFang SC Semibold'; color: #161618; -webkit-text-stroke: #161618"><span class="s6"><b>5. </b></span><span class="s7"><b>禁止行为</b><b></b></span></h2>
+<ul class="ul1">
+  <li class="li7"><span class="s9"></span><span class="s3">逆向工程、破解或绕过本应用的功能限制</span></li>
+  <li class="li7"><span class="s9"></span><span class="s3">利用本应用存储、传播违法违规内容</span></li>
+  <li class="li7"><span class="s9"></span><span class="s3">将本应用用于任何损害他人合法权益的用途</span></li>
+</ul>
+<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 19.0px 'PingFang SC Semibold'; color: #161618; -webkit-text-stroke: #161618"><span class="s6"><b>6. </b></span><span class="s7"><b>知识产权</b><b></b></span></h2>
+<ul class="ul1">
+  <li class="li7"><span class="s9"></span><span class="s3">本应用软件及界面的知识产权归开发者所有</span></li>
+  <li class="li7"><span class="s9"></span><span class="s3">你导入的数据内容归你或其原始权利人所有，我们不主张任何权利</span></li>
+</ul>
+<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 19.0px 'PingFang SC Semibold'; color: #161618; -webkit-text-stroke: #161618"><span class="s6"><b>7. </b></span><span class="s7"><b>免责声明</b><b></b></span></h2>
+<p class="p6"><span class="s3">本应用按</span><span class="s8">"</span><span class="s3">现状</span><span class="s8">"</span><span class="s3">提供，不提供任何明示或默示的担保。在法律允许的最大范围内，我们不对因使用或无法使用本应用导致的任何间接、附带或后果性损失负责。</span></p>
+<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 19.0px 'PingFang SC Semibold'; color: #161618; -webkit-text-stroke: #161618"><span class="s6"><b>8. </b></span><span class="s7"><b>协议变更</b><b></b></span></h2>
+<p class="p6"><span class="s3">我们可能不时更新本协议，重大变更将在应用内公示。继续使用即视为接受变更。</span></p>
+<h2 style="margin: 0.0px 0.0px 12.0px 0.0px; font: 19.0px 'PingFang SC Semibold'; color: #161618; -webkit-text-stroke: #161618"><span class="s6"><b>9. </b></span><span class="s7"><b>联系方式</b><b></b></span></h2>
+<p class="p8"><span class="s11"><a href="mailto:sunjun20141@qq.com">sunjun20141@qq.com<span class="s12"></span></a></span></p>
+<p class="p9"><span class="s3">© 2026 Jun Sun</span></p>
 </body>
 </html>
